@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="app">
+    <form id="form">
+      <div class="container">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="nameInput">
+      </div>
+      <div class="container">
+        <label for="age">Age: </label>
+        <input type="text" name="age" id="ageInput">
+      </div>
+      <div class="container">
+        <label for="location">Location: </label>
+        <input type="text" name="location" id="locationInput">
+      </div>
+
+      <button id="addButton">Add</button>
+    </form>
+
+    <hr>
+
+    <div class="display-container">
+      <label for="location-search">Search Location: </label>
+      <input type="text" name="location-search" id="locationSearchInput">
+
+      <button id="displayButton">Display All</button>
+
+      <div id="usersContainer"></div>
+    </div>
+  </div>
+</body>
+</html>
